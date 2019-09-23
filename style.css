@@ -1,0 +1,103 @@
+/* Bootstrap 3.3.5 Installed */
+
+.nav-pills{ 
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+body{
+  background-color:black;
+  font-family: 'Arimo', sans-serif;
+  color: white;
+}
+
+h1 {
+  padding: 0;
+  margin-top: 0px;
+  font-size: 4em;
+  font-family: 'Arimo', sans-serif;
+}
+
+.btn-default {
+  background-color: #fff;
+  border-color: #bab33f;
+  font-size: 1.25em;
+}
+
+a {
+  color: white;
+  font-family: 'Arimo', sans-serif;
+}
+
+.block {
+  text-align: center;
+  padding: 50px;
+  padding-top: 9%;
+  font-family: 'Arimo', sans-serif;
+}
+
+.pageOne {
+  background:url("https://images.unsplash.com/photo-1484995712937-db3389cfd6c8?dpr=1&auto=compress,format&fit=crop&w=1650&h=&q=80&cs=tinysrgb&crop=");
+  background-size:cover;
+    padding-bottom: 10%;
+}
+
+.pageTwo {
+  background:url("https://static.pexels.com/photos/137602/pexels-photo-137602.jpeg");
+  background-size:cover;
+   height: 1000px;
+  padding-top: 5%;
+}
+
+.pageThree {
+  background:url("https://static.pexels.com/photos/87833/pexels-photo-87833.jpeg");
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+
+.pageFour {
+  background:url("https://static.pexels.com/photos/6522/flying-traveling-travelling-airplane.jpg");
+  background-size: cover;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  
+}
+
+p {
+  font-size:1.45em;
+  padding-top: 2.5%;
+  font-family: 'Arimo', sans-serif;
+}
+
+.me {
+  height: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+      border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.paddingTop {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footer {
+  
+}
+
+.para {
+  padding-left:30px;
+  color: #273235;
+}
+
+.hChange {
+  color: #273235;
+}
