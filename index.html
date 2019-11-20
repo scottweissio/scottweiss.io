@@ -18,28 +18,28 @@
     <meta name="twitter:site" content="@ArtTemplates">
     <meta name="twitter:title" content="vCard">
     <meta name="twitter:description" content="vCard">
-    <meta name="twitter:image" content="assets/images/social.jpg">
+    <meta name="twitter:image" content="../assets/images/social.jpg">
 
     <!-- Open Graph data -->
     <meta property="og:title" content="ArtTemplate" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="your url website" />
-    <meta property="og:image" content="assets/images/social.jpg" />
+    <meta property="og:image" content="../assets/images/social.jpg" />
     <meta property="og:description" content="vCard" />
     <meta property="og:site_name" content="vCard" />
 
 	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
-	<link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../assets/images/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../assets/images/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../assets/images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="../assets/images/favicons/apple-touch-icon-57x57.png">
+	<link rel="shortcut icon" href="../assets/images/favicons/favicon.png" type="image/png">
 
     <!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../assets/styles/style.css"/>
 	
 </head>
-<body class="bg-triangles-2">
+<body class="bg-triangles-2 full-page">
     <!-- Preloader -->
     <div class="preloader">
 	    <div class="preloader__wrap">
@@ -63,22 +63,22 @@
 						
 		<div class="nav-wrap">
 			<ul class="nav">
-                <li class="nav__item"><a class="active" href="index.html">About</a></li>
+                <li class="nav__item"><a class="active" href="about.html">About</a></li>
 				<li class="nav__item"><a href="resume.html">Resume</a></li>
-                <li class="nav__item"><a href="/template/full/portfolio.html">Portfolio</a></li>
-                <li class="nav__item"><a href="/template/full/blog.html">Blog</a></li>
-                <li class="nav__item"><a href="/template/full/contact.html">Contact</a></li>
+                <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
+                <li class="nav__item"><a href="blog.html">Blog</a></li>
+                <li class="nav__item"><a href="contact.html">Contact</a></li>
             </ul>
 		</div>
 		
-	    <div class="wrapper">
+	    <div class="wrapper sticky-parent">
 			<!-- Sidebar -->
-            <aside class="sidebar js-scroll">
-			    <div>
+            <aside class="sidebar">
+			    <div class="sticky-column">
 			        <div class="avatar-wrap">
 				        <svg class="avatar avatar--180" viewBox="0 0 188 188">
                             <g class="avatar__box">
-                                <image xlink:href="assets/img/profile photo.jpeg" height="100%" width="100%" />
+                                <image xlink:href="../assets/img/profile-photo.jpeg" height="100%" width="100%" />
                             </g>
                         </svg>
 				    </div>
@@ -88,17 +88,18 @@
 							
 					    <!-- Social -->
 		                <div class="social">
-		                    <a class="social__link" href="https://www.facebook.com/"><i class="font-icon icon-facebook"></i></a>
-		                    <a class="social__link" href="https://www.behance.com/"><i class="font-icon icon-twitter"></i></a>
-		                    <a class="social__link" href="https://www.linkedin.com/"><i class="font-icon icon-linkedin2"></i></a>
+		                    <a class="social__link" href="https://www.twitter.com/scottyweiss"><i class="font-icon icon-twitter"></i></a>
+		                    <a class="social__link" href="https://www.linkedin.com/in/scottweissio"><i class="font-icon icon-linkedin2"></i></a>
+		                    <a class="social__link" href="https://www.github.com/scottweissio/"><i class="font-icon icon-github"></i></a>
+                        <a class="social__link" href="https://www.behance.net/scottweissio/"><i class="font-icon icon-behance"></i></a>
 		                </div>
 				    </div>
 
 				    <ul class="contact-block">
-					    <li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Birthday">
-						    <i class="font-icon icon-calendar2"></i>March 25, 1995
+					    <li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Date">
+						    <i class="font-icon icon-calendar2"></i>November 19, 2019
 					    </li>
-					    <li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Homebase">
+					    <li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Address">
 						    <i class="font-icon icon-map-pin"></i>New York, NY
 					    </li>
 					    <li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="E-mail">
@@ -108,66 +109,67 @@
 						    <i class="font-icon icon-smartphone"></i>+1 (070) 123-4567
 					    </li>
 					    <li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Skype">
-						    <a href="skype:skype-example"><i class="font-icon icon-skype"></i>Felecia_Brown</a>
+						    <a href="skype:skype-example"><i class="font-icon icon-skype"></i>Scott Weiss</a>
 					    </li>
-				    </ul>				
-				<a class="btn" href="#"><i class="font-icon icon-download"></i> Download Resume</a>
-        </div>
-        </aside>
+				    </ul>
+                
+				    <a class="btn" href="#"><i class="font-icon icon-download"></i> Download Resume</a>
+				</div>
+		    </aside>
 		        
 			<!-- Content -->
-		    <div class="content js-scroll">
+		    <div class="content">
 				<!-- About -->
 				<div class="section mt-0">
 		            <h1 class="title title--h1 title__separate">About Me</h1>
 					<div class="pt-2 pt-sm-3">
-					    <p> Hello! I'm currently working as Marketing Manager for Fairwinds, assisting the Director of Marketing with content, inbound, event, and growth marketing strategies.</p>
-                        <p class="mb-0">Recent transplant from Denver CO, to New York NY. Catch me in a downtown coffee shop, co-working space, or technology meetup.</p>
+					    <p>Guten Tag! Welcome to my website! A little about myself, currently, I am working as a Marketing Manager for Fairwinds, assisting the Director of Marketing with content, inbound, event, and growth marketing strategies.</p>
+              <p class="mb-0">I recently moved from Denver CO, to New York, NY. You'll often find me at a downtown coffee shop, coworking space, or local technology meetup.</p>
 				    </div>
 				</div>
 						
 				<!-- What -->
 				<div class="section">
-					<h2 class="title title--h2">What I'm Up To</h2>
+					<h2 class="title title--h2">What I'm Doing</h2>
 					<div class="row">
 						<!-- Case Item -->
 						<div class="col-12 col-lg-6 case-item-wrap">
 							<div class="case-item">
-								<img class="case-item__icon" src="assets/icons/icon-design.svg" alt="" />
+								<img class="case-item__icon" src="../assets/icons/icon-design.svg" alt="" />
 								<h3 class="title title--h3">Growth Marketing</h3>
-								<p class="case-item__caption">Learning everyday how to grow companies faster. </p>
+								<p class="case-item__caption">Implementing modern methods to grow companies faster. </p>
 							</div>
 						</div>
 								
 						<!-- Case Item -->
 						<div class="col-12 col-lg-6 case-item-wrap">
 							<div class="case-item">
-								<img class="case-item__icon" src="assets/icons/icon-dev.svg" alt="" />
+								<img class="case-item__icon" src="../assets/icons/icon-dev.svg" alt="" />
 								<h3 class="title title--h3">Web Development</h3>
-								<p class="case-item__caption">Training my knowledge in front-end fundamentals in HTML, CSS, and JS.</p>
+								<p class="case-item__caption">Learning the fundamentals of front-end in HTML, CSS, and JS.</p>
 							</div>
 						</div>
 								
 						<!-- Case Item -->
 						<div class="col-12 col-lg-6 case-item-wrap">
 							<div class="case-item">
-								<img class="case-item__icon" src="assets/icons/icon-app.svg" alt="" />
+								<img class="case-item__icon" src="../assets/icons/icon-app.svg" alt="" />
 								<h3 class="title title--h3">Music</h3>
-								<p class="case-item__caption">Crate digger, DJ, and newly Guitarist.</p>
+								<p class="case-item__caption">DJ of 5+ years, and a new student of guitar and production.</p>
 							</div>
 						</div>
 								
 						<!-- Case Item -->
 						<div class="col-12 col-lg-6 case-item-wrap">
 							<div class="case-item">
-								<img class="case-item__icon" src="assets/icons/icon-photo.svg" alt="" />
+								<img class="case-item__icon" src="../assets/icons/icon-photo.svg" alt="" />
 								<h3 class="title title--h3">Travel</h3>
-								<p class="case-item__caption">A Google Flights tab is often open.</p>
+								<p class="case-item__caption">Google Flights is a pinned tab.</p>
 							</div>
 						</div>
 					</div>	
 				</div>
-
+				
 			</div><!-- Content End -->
 		</div><!-- Wrapper End -->
     </main>
