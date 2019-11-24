@@ -11,7 +11,7 @@ function init() {
 		disableDefaultUI: true,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        center: new google.maps.LatLng(40.7262, -73.9818), // New York
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -32,17 +32,17 @@ function init() {
     }
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.6700, -73.9400),
+        position: new google.maps.LatLng(40.7262, -73.9818),
         map: map,
-        optimized: false,
-        icon: image
+        optimized: false//,
+      //     icon: image
     });	
 				
 	// Construct a new InfoWindow.
     var infoWindow = new google.maps.InfoWindow({
         content: 
-		'<h1 class="popover-map-title">vCard</h1>'+
-		'<div class="popover-map-caption">756 Livingston Street, Brooklyn, NY 11201</div>'
+		'<h1 class="popover-map-title">New York</h1>'+
+		'<div class="popover-map-caption">New York, NY</div>'
     });
 				
 	// Opens the InfoWindow when marker is clicked.
