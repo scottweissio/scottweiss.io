@@ -27,7 +27,7 @@ $(document).ready(function() {
       Loaded
     -------------------------------------------------------------------*/
 
-	var tweenTime = 4; //sec
+	var tweenTime = .5; //sec
 
 	var master = new TimelineMax({delay: tweenTime-2});
 	master.eventCallback('onComplete', function() {
