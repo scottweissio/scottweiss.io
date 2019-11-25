@@ -119,81 +119,39 @@
 
 
 
-                <div class="map section" id="map"></div>
+        <div class="map section" id="map"></div>
 
 
-                <h2 class="title title--h2">Contact Form</h2>
-
-
-
-
-
-                <form action="https://formspree.io/myyzgzoa" method="POST" class="contact-form">
-                <div class="row">
-				          <div class="form-group col-12 col-md-6">
-							      <i class="font-icon icon-user"></i>
-                    <input type="text" name="name" class="input input__icon form-control" placeholder="Full name">
-				          </div>
-                  <div class="form-group col-12 col-md-6">
-						        <i class="font-icon icon-at"></i>
-                    <input type="email" name="_replyto" class="input input__icon form-control" placeholder="Email address">
-                  </div>
-                </div>
-
-
-                <div class="row">
-                  <div class"col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
-                      <input type="text" name="message">
-                        <button type="submit" class="btn"><i class="font-icon icon-send"></i> Send Message</button>
-                  </div>
-                </div>
-                </form>
+        <h2 class="title title--h2">Contact Form</h2>
 
 
 
 
 
-
-							
-				<form id="contact-form" class="contact-form" data-toggle="validator">
-                    <div class="row">
-				        <div class="form-group col-12 col-md-6">
-							<i class="font-icon icon-user"></i>
-                            <input type="text" class="input input__icon form-control" id="nameContact" name="nameContact" placeholder="Full name" required="required" autocomplete="on" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')">
-							<div class="help-block with-errors"></div>
-				        </div>
-				        <DIV CLASS="FORM-GROUP COL-12 COL-MD-6">
-							<I CLASS="FONT-ICON ICON-AT"></I>
-                            <INPUT TYPE="EMAIL" CLASS="INPUT INPUT__ICON FORM-CONTROL" ID="EMAILCONTACT" NAME="EMAILCONTACT" PLACEHOLDER="EMAIL ADDRESS" REQUIRED="REQUIRED" AUTOCOMPLETE="ON" ONINVALID="SETCUSTOMVALIDITY('EMAIL IS INCORRECT')" ONKEYUP="SETCUSTOMVALIDITY('')">
-							<div class="help-block with-errors"></div>
-				        </div>
-
-
-
-
-				        <div class="form-group col-12 col-md-12">
-                            <textarea class="textarea form-control" id="messageContact" name="messageContact" placeholder="Your Message"  rows="4" required="required" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')"></textarea>
-							<div class="help-block with-errors"></div>
-				        </div>
-					</div>
-					<div class="row">
-				        <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
-					        <div id="validator-contact" class="hidden"></div>
-				        </div>
-				        <div class="col-12 col-md-6 order-1 order-md-2 text-right">
-					        <button type="submit" class="btn"><i class="font-icon icon-send"></i> Send Message</button>
-				        </div>
-			        </div>
-
-
-
-		        </form>
-
-
-
-
-
-
+        <form action="https://formspree.io/myyzgzoa" method="POST" class="contact-form">
+          <div class="row">
+            <div class="form-group col-12 col-md-6">
+              <i class="font-icon icon-user"></i>
+              <input type="text" name="name" class="input input__icon form-control" placeholder="Full name">
+            </div>
+            <div class="form-group col-12 col-md-6">
+              <i class="font-icon icon-at"></i>
+              <input type="email" name="_replyto" class="input input__icon form-control" placeholder="Email address">
+            </div>          
+            <div class="form-group col-12 col-md-12">
+              <textarea class="textarea form-control" name="messageContact" placeholder="Your Message"  rows="4"></textarea>
+            </div>
+          </div>
+          <div class="row">
+      
+            <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+            </div>
+            
+            <div class="col-12 col-md-6 order-1 order-md-2 text-right">
+                  <button type="submit" class="btn"><i class="font-icon icon-send"></i> Send Message</button>
+            </div>
+          </div>
+        </form>
 			</div><!-- Content End -->
 		</div><!-- Wrapper End -->
     </main>
