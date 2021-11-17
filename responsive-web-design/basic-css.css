@@ -1,3 +1,6 @@
 .modified-image {
   width: 100px;
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
 }
